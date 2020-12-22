@@ -517,7 +517,7 @@ class MediaGalleryPlugin: FlutterPlugin, MethodCallHandler {
 
   private fun rotatedBitmap(bitmap: Bitmap, orientation: Long) : ByteArray {
     val matrix = Matrix()
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) {
+    if (Build.VERSION.SDK_INT < 29) {
       matrix.postRotate(orientation.toFloat())
     }
     val resultBitmap = Bitmap.createBitmap(bitmap!!, 0, 0, bitmap!!.getWidth(), bitmap!!.getHeight(), matrix, true)
