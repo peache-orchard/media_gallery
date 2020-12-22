@@ -19,18 +19,18 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32616d1-cc54-499b-bf5a-64268429c2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="e32616d1-cc54-499b-bf5a-64268429c2b2" name="Default Changelist" comment="use 29 for versions lower than BuildVersion Q">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/media_gallery/MediaGalleryPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/media_gallery/MediaGalleryPlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media_gallery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/media_gallery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lfoozw6eCdwrEIKuwAENzBRZkr" />
   <component name="ProjectViewState">
@@ -67,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607997685938</updated>
     </task>
+    <task id="LOCAL-00001" summary="use 29 for versions lower than BuildVersion Q">
+      <created>1608598614745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608598614745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,7 +89,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -93,35 +102,44 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="use 29 for versions lower than BuildVersion Q" />
+    <option name="LAST_COMMIT_MESSAGE" value="use 29 for versions lower than BuildVersion Q" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="360" y="140" width="1200" height="800" key="AVDManager" timestamp="1608049896307">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="360" y="140" width="1200" height="800" key="AVDManager/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1608049896307" />
-    <state x="2123" y="110" width="1200" height="800" key="DiffContextDialog" timestamp="1608598497367">
+    <state x="2302" y="208" width="1200" height="708" key="DiffContextDialog" timestamp="1608599756152">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2123" y="110" width="1200" height="800" key="DiffContextDialog/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608598497367" />
+    <state x="203" y="114" width="1200" height="831" key="DiffContextDialog/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@0.0.1920.1080" timestamp="1608598882944" />
+    <state x="2302" y="208" width="1200" height="708" key="DiffContextDialog/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599756152" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1607999008143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1607999008143" />
-    <state width="1340" height="322" key="GridCell.Tab.0.bottom" timestamp="1608049901993">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1340" height="322" key="GridCell.Tab.0.bottom" timestamp="1608599928444">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="322" key="GridCell.Tab.0.bottom/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1608049901993" />
-    <state width="1340" height="322" key="GridCell.Tab.0.center" timestamp="1608049901993">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1340" height="322" key="GridCell.Tab.0.bottom/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599928444" />
+    <state width="1340" height="322" key="GridCell.Tab.0.center" timestamp="1608599928443">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="322" key="GridCell.Tab.0.center/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1608049901993" />
-    <state width="1340" height="322" key="GridCell.Tab.0.left" timestamp="1608049901993">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1340" height="322" key="GridCell.Tab.0.center/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599928443" />
+    <state width="1340" height="322" key="GridCell.Tab.0.left" timestamp="1608599928443">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="322" key="GridCell.Tab.0.left/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1608049901993" />
-    <state width="1340" height="322" key="GridCell.Tab.0.right" timestamp="1608049901993">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1340" height="322" key="GridCell.Tab.0.left/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599928443" />
+    <state width="1340" height="322" key="GridCell.Tab.0.right" timestamp="1608599928443">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="322" key="GridCell.Tab.0.right/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1608049901993" />
+    <state width="1340" height="322" key="GridCell.Tab.0.right/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599928443" />
     <state width="1340" height="322" key="GridCell.Tab.1.bottom" timestamp="1608049901993">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -142,13 +160,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/6.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040/1926.-1080.1920.1080@0.0.1920.1080" timestamp="1607999012849" />
-    <state x="2315" y="243" key="Vcs.Push.Dialog.v2" timestamp="1608598271383">
+    <state x="2315" y="243" key="Vcs.Push.Dialog.v2" timestamp="1608599693030">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2315" y="243" key="Vcs.Push.Dialog.v2/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608598271383" />
-    <state x="2430" y="243" width="585" height="534" key="find.popup" timestamp="1608598124947">
+    <state x="2315" y="243" key="Vcs.Push.Dialog.v2/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599693030" />
+    <state x="2520" y="-626" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608604063180">
+      <screen x="1926" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="2514" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599756113" />
+    <state x="2520" y="-626" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1926.-1080.1920.1080" timestamp="1608604063180" />
+    <state x="2430" y="243" width="585" height="534" key="find.popup" timestamp="1608599888192">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2430" y="243" width="585" height="534" key="find.popup/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608598124947" />
+    <state x="510" y="252" width="585" height="801" key="find.popup/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@0.0.1920.1080" timestamp="1608598643113" />
+    <state x="2430" y="243" width="585" height="534" key="find.popup/6.-1080.1920.1080/1926.-1080.1920.1080/0.0.1920.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608599888192" />
   </component>
 </project>

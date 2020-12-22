@@ -271,7 +271,7 @@ class MediaGalleryPlugin: FlutterPlugin, MethodCallHandler {
                   projection,
                   if (collectionId == "__ALL__") null else "bucket_id = $collectionId",
                   null,
-                  "$orderBy LIMIT $limit OFFSET $offset")
+                  "$orderBy") // LIMIT $limit OFFSET $offset
 
           if (c != null) {
             val idColumn = c.getColumnIndex(MediaStore.Images.Media._ID)
